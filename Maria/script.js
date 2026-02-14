@@ -20,7 +20,7 @@ bgMusic.loop = true;
 bgMusic.currentTime = 0; // Poner aquí los segundos de inicio (ej: 60 para 1 minuto)
 
 // MUSICA DE ÉXITO (Cuando dice que sí)
-const successMusic = new Audio('music/itWillRain.mp3');
+const successMusic = new Audio('music/QuimicaMayor.mp3');
 successMusic.currentTime = 0; // Poner aquí los segundos de inicio
 
 
