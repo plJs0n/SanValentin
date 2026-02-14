@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San Valentín?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-animation"></div>
+
+    <div class="card">
+        <h1 class="title">¿Quieres ser mi San Valentín?</h1>
+
+        <div class="image-container">
+            <!-- Using a high-quality placeholder since generation failed temporarily -->
+            <img src="https://cataas.com/cat/cute" alt="Gato tierno" id="cat-image">
+        </div>
+
+        <p id="dynamic-message" class="dynamic-message hidden"></p>
+
+        <div class="buttons">
+            <button id="yes-btn" class="btn btn-yes">¡Sí!</button>
+            <button id="no-btn" class="btn btn-no">No</button>
+        </div>
+
+        <p id="response-message" class="hidden"></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
