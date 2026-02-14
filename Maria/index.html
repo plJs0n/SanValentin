@@ -13,15 +13,24 @@
 <body>
     <div class="background-animation"></div>
 
-    <div class="card">
-        <h1 class="title">¿Quieres ser mi San Valentín?</h1>
+    <!-- PANTALLA DE INICIO (Para activar música) -->
+    <div id="intro-screen" class="card intro-card">
+        <h1 class="title">Maria, tengo algo que decirte...</h1>
+        <div class="emoji-animate">🫶</div>
+        <p class="instruction">Toca la pantalla para comenzar</p>
+    </div>
+
+    <!-- TARJETA PRINCIPAL (Oculta al principio) -->
+    <div class="card main-card hidden">
+        <h1 class="title">¿Quieres ser mi San Valentín?🥺</h1>
+
 
         <div class="image-container">
             <!-- Using a high-quality placeholder since generation failed temporarily -->
-            <img src="https://cataas.com/cat/cute" alt="Gato tierno" id="cat-image">
+            <img src="img/gato-con-rosa.jpg" alt="Gato tierno" id="cat-image">
         </div>
 
-        <p id="dynamic-message" class="dynamic-message hidden"></p>
+        <p id="dynamic-message" class="dynamic-message">Prometo hacerte feliz</p>
 
         <div class="buttons">
             <button id="yes-btn" class="btn btn-yes">¡Sí!</button>
