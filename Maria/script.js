@@ -86,7 +86,7 @@ yesBtn.addEventListener('click', () => {
     // title.textContent = "Para mi Reyna Hermosa..."; // Replaced by typewriter logic below
     typeWriter(title, "Para mi Reyna Hermosa...❤️", 100);
 
-    responseMessage.textContent = "Gracias por llenar mis días de alegría y hacer que mi corazón lata fuerte";
+    responseMessage.textContent = "Gracias por llenar mis días de alegría y hacer que mi corazón lata más fuerte. No hay nadie en el mundo con quien prefiera estar más qque contigo. ¡Te amoo!✨❤️";
     responseMessage.classList.remove('hidden');
     responseMessage.classList.add('visible');
 
